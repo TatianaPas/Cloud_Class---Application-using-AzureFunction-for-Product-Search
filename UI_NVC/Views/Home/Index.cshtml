@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Search Product UI MVC";
+}
+
+<h1>Search Product</h1>
+<form method="get" action="https://localhost:7080/Products/ProductList">
+    <label>Enter Product for Search</label>
+    <input type = "text" id="PName" name="PName" />
+    <input type="submit" value="Search" />
+</>
+</form>
+
+
+@*https://localhost:7080/Products/ProductList?PName=PName*@
